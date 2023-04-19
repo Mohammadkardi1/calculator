@@ -27,7 +27,7 @@ function App() {
 
 
   const getResult =  () => {
-    if (operation !== '' ) {
+    if (operation !== '' && displayNumber !=='' ) {
       let output
       switch (operation) {
         case '\u00D7' :
